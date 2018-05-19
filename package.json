@@ -1,0 +1,19 @@
+{
+    "name": "object-creation-comparison",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "classes-ex1": "tsc && node dist/v2/classes/run-ex1.js",
+        "closures-ex1": "tsc && node dist/v2/closures/run-ex1.js",
+        "functional-ex1": "tsc && node dist/v2/functional/run-ex1.js",
+        "bench": "tsc && node dist/v2/bench.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "benchmark": "^2.1.4",
+        "typescript": "^2.8.3"
+    }
+}
